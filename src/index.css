@@ -1,13 +1,73 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.fin {
+  margin: 50px;
+  padding: 25px;
+  border-radius: 25px;
+  box-shadow: 0 5px 10px 0 #b8b8b8;
+}
+
+.fin table {
+  width: 25%;
+  text-align: start;
+}
+
+.fin table thead tr th {
+  text-align: start;
+}
+
+.fin form {
+  text-align: center;
+}
+
+.card-saldos {
+  flex: 1;
+
+  background-image: linear-gradient(90deg, #62b790, #1d5f46);
+  border-radius: 25px;
+  box-shadow: 0 5px 10px 0 #b8b8b8;
+  padding: 18px;
+  color: #fff;
+}
+
+.card-saldos p {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.card-saldos h3 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.container-card {
+  display: flex;
+  gap: 15px;
+}
+
+.container-botoes {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.botoes {
+  background-image: linear-gradient(90deg, #62b790, #1d5f46);
+  width: 150px;
+  height: 30px;
+  padding: 5px;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 18px;
 }
